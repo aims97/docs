@@ -1,12 +1,12 @@
 ---
 title: "Create User"
-api: "POST https://api.mintlify.com/api/user"
+api: "GET /api/v2/domains/{domain}/check"
 description: "This endpoint creates a new user"
 ---
 
-### Body
+### Path
 
-<ParamField body="current_token" type="string">
+<ParamField path="current_token" type="string">
   This is the current user group token you have for the user group that you want
   to rotate.
 </ParamField>
