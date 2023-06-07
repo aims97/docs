@@ -27,6 +27,14 @@
       "url": "api-reference"
     }
   ],
+  "openapi": "/openapi.yaml",
+  "api":{
+    "baseUrl": "https://superreseller-qa.nominus.host/",
+    "playground":{
+      "mode": "show"
+    }
+  },
+  
   "navigation": [
     {
       "group": "Get Started",
